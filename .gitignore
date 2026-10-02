@@ -1,0 +1,16 @@
+# Keep game images, extracted files, generated output, builds, saves, and logs local.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+/docs/*
+!/docs/README.md
+!/docs/building.md
+!/docs/RG-FS-001.md
+!/FIFA Street/
+/FIFA Street/*
+!/FIFA Street/README.md
+!/FIFA Street/fifastreet.toml
+!/assets/
+/assets/*
+!/assets/icons/

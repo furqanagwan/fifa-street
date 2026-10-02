@@ -1,0 +1,10 @@
+# FIFA Street (title 4541097B, media 78AA9072), version 0.0.0.3
+# default.xex SHA-256:        f4902ab0a2515ca64675544852a0263ba429863dad13dc19b7c2d989c97aa2b1
+# fifadllzf.xex.dll SHA-256:  9d2fb47c3caf279d55962f671afc5b8eb7a597717d44ccb5995dd002a3c26201
+# Include it from the entry point of fifastreet_manifest.toml:
+# includes = ["../fifastreet.toml"].
+#
+# The game's code is in fifadllzf.xex.dll, a guest module the launcher
+# default.xex loads; `rexglue init --scan-dll` adds it (and the disc's
+# footballcompengzf.xex.dll) as [[modules]]. Title-specific codegen settings
+# for these executables go here.
